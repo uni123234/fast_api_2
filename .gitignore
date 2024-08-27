@@ -1,0 +1,31 @@
+# Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Environment variables and credentials
+.env
+
+# Virtual environment directory
+venv/
+env/
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Mypy and pylint
+.mypy_cache/
+.pylint.d/
+
+# Flask instance folder
+instance/
+
+# Logs
+*.log
+
+# Coverage reports
+.coverage
+coverage.xml
