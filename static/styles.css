@@ -1,0 +1,45 @@
+body,
+html {
+	height: 100%;
+	margin: 0;
+	font-family: Arial, sans-serif;
+	background-color: #f7f7f7;
+	text-align: center;
+}
+
+.weather-app {
+	margin-top: 50px;
+	width: 80%;
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.date-input {
+	margin: 20px 0;
+}
+
+#weatherDate {
+	padding: 10px;
+	margin-right: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+#findWeather {
+	padding: 10px 20px;
+	background-color: yellow;
+	border: none;
+	cursor: pointer;
+	font-weight: bold;
+	border-radius: 4px;
+}
+
+.weather-info {
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	background-color: #fff;
+	padding: 20px;
+	margin-top: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
